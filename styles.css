@@ -1,1 +1,53 @@
-body {background:blue}
+body {background:lightgrey}
+
+img[src="images.jpg"]{
+	background-color: grey; 
+	padding: 5px;
+	margin:20px;
+
+} 
+
+img[src="imgres.jpg"]{
+	background-color: grey; 
+	padding: 5px;
+	margin:20px;
+} 
+
+header h1{
+    border: double; 
+	border-color: white;
+	border-width: 10px;
+	border-style: outset;
+	
+}
+
+.sentence{
+  font:bold large/150%"Helvetica";
+
+}
+
+
+footer {
+	text-align: center;
+	margin: 30px;
+    width: 90%;
+    border: 3px solid grey;
+    padding: 10px;
+}
+
+p.improve,ul {
+	color: white;
+background-color: skyblue;
+background-image: url("sample_background_design_by_zipo_chan.png")
+}
+
+a#link1,#link2,#link3,#link4:visited{
+	color: red
+}
+
+@media screen and (max-width: 500px){
+ body {
+ 	 background-color: pink;
+ 	 font-size: .8em
+ }
+}
